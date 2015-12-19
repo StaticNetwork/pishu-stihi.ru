@@ -1,0 +1,183 @@
+/* CSS Document */
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	margin: 0px;
+	padding: 0px;
+	}
+
+a, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+	
+a:hover      {
+	text-decoration: underline;
+	}
+
+h1 {
+	color: #000000;
+	font-size: 28px;
+	font-weight: normal;
+	}
+
+h2 {
+	color: #000000;
+	font-size: 22px;
+	font-weight: normal;
+	}
+
+h3 {
+	color: #000000;
+	font-size: 20px;
+	font-family: Arial, Sans-Serif;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.logo {
+	background: #ffffff url(/images/logo_zvet_vg.jpg) no-repeat;
+	height: 210px !important;
+	padding: 5px 5px 0px 315px;
+	border-bottom: 1px solid #ccc;
+	}
+
+#nav {
+	list-style:none;
+	margin:0;
+	padding:0px;
+	clear:both;
+	float:right;
+	line-height:0px;
+	}
+	#nav li{
+		margin-left:5px;
+		float:left;
+		}
+	#nav li a{
+		height: 25px;
+		display:block;
+		float:left;
+		text-decoration:none;
+		}
+	#nav #nav-home a{
+		width: 61px;
+		background: url(/images/nav-home.jpg) no-repeat left top;
+		}
+
+.menuright {
+	padding: 0 0 0 1px;
+	background: #FFFFFF url(/images/menu-left.gif) repeat-y;
+	}
+
+.base-menu {
+	padding: 10px;
+	}
+
+.menuright ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.menuright ul li {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+.menuright ul li a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	}
+
+.menuright ul li a:hover {
+	background: #EFEFEF;
+	}
+	
+.menuright p{
+	padding: 3px 0px 0px 0px;
+	margin: 0px;
+	line-height: 20px;
+	}
+	
+.menuright img {
+	border: 0px solid #ccc;
+	}
+
+.menuleft {
+	padding: 10px;
+	}
+
+.menuleft h3 {
+	color: #000000;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #ccc;
+	}
+
+.menuleft ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.menuleft ul li {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+.menuleft ul li a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	}
+
+.menuleft ul li a:hover {
+	background: #EFEFEF;
+	}
+	
+.menuleft p{
+	padding: 3px 0px 0px 0px;
+	margin: 0px;
+	line-height: 20px;
+	}
+	
+.content {
+	padding: 10px;
+	}
+	
+.content a, a:visited {
+	color: #ff0000;
+	text-decoration: none;
+	}
+	
+.content a:hover {
+	text-decoration: underline;
+	}
+
+.content p img{
+	border: 3px solid #ccc;
+	margin: 0px;
+	}
+
+p {
+	text-align: justify;
+}
+	
+#footer {
+	text-align:left;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	}

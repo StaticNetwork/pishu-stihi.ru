@@ -1,0 +1,11 @@
+/* CSS Document */
+.logo {
+	background: #ffffff url(/images/logo_zvet_vg.jpg) no-repeat;
+	height: 130px !important;
+	padding: 5px 5px 0px 315px;
+	border-bottom: 1px solid #ccc;
+	}
+	
+a {
+	color: #000000;
+	}
